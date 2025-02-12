@@ -1,0 +1,154 @@
+{
+  "hash": "a812c66c",
+  "configHash": "f0c0f597",
+  "lockfileHash": "bf6e5955",
+  "browserHash": "4b982c35",
+  "optimized": {
+    "react": {
+      "src": "../../react/index.js",
+      "file": "react.js",
+      "fileHash": "8e10b34d",
+      "needsInterop": true
+    },
+    "react-dom": {
+      "src": "../../react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "45787ce1",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "9f4cc9e1",
+      "needsInterop": true
+    },
+    "react/jsx-runtime": {
+      "src": "../../react/jsx-runtime.js",
+      "file": "react_jsx-runtime.js",
+      "fileHash": "de310ac9",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "c1479c90",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "5b7a4dee",
+      "needsInterop": false
+    },
+    "dhtmlx-gantt": {
+      "src": "../../dhtmlx-gantt/codebase/dhtmlxgantt.es.js",
+      "file": "dhtmlx-gantt.js",
+      "fileHash": "5b869da9",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../axios/index.js",
+      "file": "axios.js",
+      "fileHash": "5cebc005",
+      "needsInterop": false
+    },
+    "@fullcalendar/daygrid": {
+      "src": "../../@fullcalendar/daygrid/index.js",
+      "file": "@fullcalendar_daygrid.js",
+      "fileHash": "810fdb3c",
+      "needsInterop": false
+    },
+    "@fullcalendar/interaction": {
+      "src": "../../@fullcalendar/interaction/index.js",
+      "file": "@fullcalendar_interaction.js",
+      "fileHash": "142bb37f",
+      "needsInterop": false
+    },
+    "@Fullcalendar/list": {
+      "src": "../../@fullcalendar/list/index.js",
+      "file": "@Fullcalendar_list.js",
+      "fileHash": "7b80729d",
+      "needsInterop": false
+    },
+    "@fullcalendar/react": {
+      "src": "../../@fullcalendar/react/dist/index.js",
+      "file": "@fullcalendar_react.js",
+      "fileHash": "37b26c40",
+      "needsInterop": false
+    },
+    "@fullcalendar/timegrid": {
+      "src": "../../@fullcalendar/timegrid/index.js",
+      "file": "@fullcalendar_timegrid.js",
+      "fileHash": "89ac2edc",
+      "needsInterop": false
+    },
+    "@mui/material": {
+      "src": "../../@mui/material/index.js",
+      "file": "@mui_material.js",
+      "fileHash": "18c81d74",
+      "needsInterop": false
+    },
+    "moment": {
+      "src": "../../moment/dist/moment.js",
+      "file": "moment.js",
+      "fileHash": "9893edc3",
+      "needsInterop": false
+    },
+    "apextree": {
+      "src": "../../apextree/apextree.es.min.js",
+      "file": "apextree.js",
+      "fileHash": "0104e932",
+      "needsInterop": false
+    },
+    "rc-tree": {
+      "src": "../../rc-tree/es/index.js",
+      "file": "rc-tree.js",
+      "fileHash": "a87a5486",
+      "needsInterop": false
+    },
+    "primereact/organizationchart": {
+      "src": "../../primereact/organizationchart/organizationchart.esm.js",
+      "file": "primereact_organizationchart.js",
+      "fileHash": "890ca46e",
+      "needsInterop": false
+    },
+    "primereact/dialog": {
+      "src": "../../primereact/dialog/dialog.esm.js",
+      "file": "primereact_dialog.js",
+      "fileHash": "51fdaeb2",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-M7BDAL6V": {
+      "file": "chunk-M7BDAL6V.js"
+    },
+    "chunk-T7UM46HU": {
+      "file": "chunk-T7UM46HU.js"
+    },
+    "chunk-E7UMYCFL": {
+      "file": "chunk-E7UMYCFL.js"
+    },
+    "chunk-SJZWWMT6": {
+      "file": "chunk-SJZWWMT6.js"
+    },
+    "chunk-BSD3I3BJ": {
+      "file": "chunk-BSD3I3BJ.js"
+    },
+    "chunk-5RJLT76U": {
+      "file": "chunk-5RJLT76U.js"
+    },
+    "chunk-YG5AX2YU": {
+      "file": "chunk-YG5AX2YU.js"
+    },
+    "chunk-UVXKGGW7": {
+      "file": "chunk-UVXKGGW7.js"
+    },
+    "chunk-73THXJN7": {
+      "file": "chunk-73THXJN7.js"
+    },
+    "chunk-2TUXWMP5": {
+      "file": "chunk-2TUXWMP5.js"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+import { useState } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import data from './gant/dummyData';
+import MessageArea from './gant/MessageArea';
+import MyGantt from './gant/MyGantt';
+import Toolbar from './gant/Toolbar';
+import Layout from './layout/Layout';
+import LoginScreen from './LoginScreen';
+import AttManager from './schedule/AttManager';
+import Fullcalendar from './schedule/Fullcalendar';
+
+function App() {
+  const FooterMessage = "푸터입니당";
+
+  const [zoom, setZoom] = useState("날짜단위")
+  const [msgs, setMsgs] = useState([])
+
+  const onZoomChange = (zoom) => {
+    setZoom(zoom)
+  }
+
+  const logMessage = (message) => {
+    msgs.length >= 5 ? setMsgs([message, ...msgs.slice(0, 4)]) : setMsgs([message, ...msgs])
+  }
+
+  const logDataupdate = (entityType, action, itemData, taskId) => {
+    console.log("B/E 에 중요", entityType, action, itemData, taskId);
+    let text = itemData && itemData.text ? ` (${itemData.text})` : '';
+    let taskName = itemData && itemData.taskName ? ` (${itemData.taskName})` : '';
+    let message = `${entityType} ${action}: ${taskId} ${text} ${taskName}`;
+    if (entityType === 'link' && action !== 'delete') {
+      message += ` ( source: ${itemData.source}, target: ${itemData.target} )`;
+    }
+    logMessage(message)
+  }
+
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/attManager" element={<AttManager />} />
+        <Route >
+          <Route path="/" element={<LoginScreen />} />
+          <Route path="/schedule" element={<Fullcalendar />} />
+
+          {/* MyGantt 컴포넌트에 상태를 전달 */}
+          <Route
+            path="/gantt"
+            element={
+              <div className="ganttbox">
+                {/* 툴바와 메시지 영역을 MyGantt와 함께 렌더링 */}
+                <Toolbar curzoom={zoom} onZoomChange={onZoomChange} />
+                <MyGantt tasks={data} curzoom={zoom} msgs={msgs} onDataUpdated={logDataupdate}  />
+                <MessageArea msgs={msgs} />
+              </div>
+            }
+          />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  )
+}
+
+export default App

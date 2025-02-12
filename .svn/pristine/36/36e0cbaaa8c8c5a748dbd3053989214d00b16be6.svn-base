@@ -1,0 +1,23 @@
+#root{
+  margin: 5px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-left: 30px;
+}
+html{
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+.gantt_layout_cell {
+
+  margin-top: 1%;
+
+}

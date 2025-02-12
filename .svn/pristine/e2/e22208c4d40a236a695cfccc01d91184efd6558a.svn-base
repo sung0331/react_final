@@ -1,0 +1,131 @@
+
+*{
+    /* border: none !important; */
+}
+.gantt-container {
+    height: calc(100vh - 50px - 200px);
+    margin-top: 50%;
+    background-color: aqua;
+  }
+ 
+  .message-area ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .message-area li:before {
+    content: "\003e";
+    padding-right: 10px;
+  }.gantt-container {
+    height: calc(100vh - 50px - 200px);
+  }
+  .message-area {
+    background: #edf2f7;
+    height: 200px;
+    overflow: auto;
+    padding: 10px;
+    box-sizing:border-box;
+    border:1px solid rgb(236, 236, 236);
+    border-radius: 10px;
+  }
+  .message-area ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .message-area>h5{
+    font-weight: normal;
+
+  }
+  .message-area li:before {
+    content: "\003e";
+    padding-right: 10px;
+  }
+  .ganttbox{
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 2%;
+} 
+   .gantt_layout_cell {
+    border: none;
+    border-radius: 20px;
+
+    
+    
+    }
+    .gantt-container {
+      height: calc(100vh - 50px - 200px);
+      background-color: black;
+      overflow-x: scroll !important;
+    }
+/*     .gantt_task_cell {
+        border: none !important;
+        
+        
+
+    } */
+    :root{
+        --dhx-gantt-base-colors-border:none !important;
+        --dhx-gantt-container-background:rgb(255, 255, 255) !important; 
+    }
+    .gantt_task_bg{
+      overflow-x: scroll  !important;
+      
+      
+    }
+    .gantt_task_progress, .gantt_side_content{
+      overflow-x: scroll  !important;
+      
+    }
+    .gantt_layout_cell{
+      margin:0 !important;
+    }
+    .gantt_hor_scroll::-webkit-scrollbar {
+      width: 1px;
+      background-color: rgb(236, 254, 255);
+      
+      
+
+
+
+    }
+    .gantt_hor_scroll::-webkit-scrollbar-thumb {
+      background-color: #009CFF;
+      border-radius: 10px;
+      width: 1px;
+    }
+
+    .tool-bar{
+      width: 20%;
+        border-radius: 20px;
+    }
+    .gantt_task_content{
+      font-size: var(--dhx-gantt-task-font-size);
+      color: rgb(255 255 255 / 90%);
+      width: 100%;
+      padding-top: 1px;
+      top: 0;
+      cursor: pointer;
+      position: absolute;
+      white-space: nowrap;
+      text-align: center;
+      background-color: #009CFF;
+      font-weight: bold;
+
+    }
+    input[type='radio']{
+      display: none;
+    }
+    .rdo:active{
+      color: #ffffff;
+    }
+h6{
+  font-weight: normal !important;
+  margin: 10px !important;
+}
+.gantcon{
+
+  border: 1px solid rgb(231, 231, 231) !important;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.131);
+}

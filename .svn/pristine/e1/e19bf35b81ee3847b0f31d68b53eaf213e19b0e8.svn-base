@@ -1,0 +1,121 @@
+{
+  "hash": "4c5a17e3",
+  "configHash": "6029cbb3",
+  "lockfileHash": "1fe59203",
+  "browserHash": "cf999e4a",
+  "optimized": {
+    "react": {
+      "src": "../../react/index.js",
+      "file": "react.js",
+      "fileHash": "2b94668b",
+      "needsInterop": true
+    },
+    "react-dom": {
+      "src": "../../react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "ef0e9cd3",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "b27d90d4",
+      "needsInterop": true
+    },
+    "react/jsx-runtime": {
+      "src": "../../react/jsx-runtime.js",
+      "file": "react_jsx-runtime.js",
+      "fileHash": "eb207834",
+      "needsInterop": true
+    },
+    "@fullcalendar/daygrid": {
+      "src": "../../@fullcalendar/daygrid/index.js",
+      "file": "@fullcalendar_daygrid.js",
+      "fileHash": "6d4c9c26",
+      "needsInterop": false
+    },
+    "@fullcalendar/interaction": {
+      "src": "../../@fullcalendar/interaction/index.js",
+      "file": "@fullcalendar_interaction.js",
+      "fileHash": "13406150",
+      "needsInterop": false
+    },
+    "@Fullcalendar/list": {
+      "src": "../../@fullcalendar/list/index.js",
+      "file": "@Fullcalendar_list.js",
+      "fileHash": "10b1d4e0",
+      "needsInterop": false
+    },
+    "@fullcalendar/react": {
+      "src": "../../@fullcalendar/react/dist/index.js",
+      "file": "@fullcalendar_react.js",
+      "fileHash": "e1f6cfef",
+      "needsInterop": false
+    },
+    "@fullcalendar/timegrid": {
+      "src": "../../@fullcalendar/timegrid/index.js",
+      "file": "@fullcalendar_timegrid.js",
+      "fileHash": "e721e41f",
+      "needsInterop": false
+    },
+    "@mui/material": {
+      "src": "../../@mui/material/index.js",
+      "file": "@mui_material.js",
+      "fileHash": "77f31041",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../axios/index.js",
+      "file": "axios.js",
+      "fileHash": "8fbfbd54",
+      "needsInterop": false
+    },
+    "dhtmlx-gantt": {
+      "src": "../../dhtmlx-gantt/codebase/dhtmlxgantt.es.js",
+      "file": "dhtmlx-gantt.js",
+      "fileHash": "a9b2e92c",
+      "needsInterop": false
+    },
+    "moment": {
+      "src": "../../moment/dist/moment.js",
+      "file": "moment.js",
+      "fileHash": "8cd8b2fc",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "df09a884",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "805ee793",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-YG5AX2YU": {
+      "file": "chunk-YG5AX2YU.js"
+    },
+    "chunk-M7BDAL6V": {
+      "file": "chunk-M7BDAL6V.js"
+    },
+    "chunk-T7UM46HU": {
+      "file": "chunk-T7UM46HU.js"
+    },
+    "chunk-UVXKGGW7": {
+      "file": "chunk-UVXKGGW7.js"
+    },
+    "chunk-73THXJN7": {
+      "file": "chunk-73THXJN7.js"
+    },
+    "chunk-E7UMYCFL": {
+      "file": "chunk-E7UMYCFL.js"
+    },
+    "chunk-2TUXWMP5": {
+      "file": "chunk-2TUXWMP5.js"
+    }
+  }
+}

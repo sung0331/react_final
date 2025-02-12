@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* 전체 화면 스타일 */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} */
+
+/* 로그인 컨테이너 스타일 */
+.login-container {
+    background-color: #fff;
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* 로고 스타일 */
+.logo {
+    font-size: 36px;
+    color: #2a64f5;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* 입력 그룹 스타일 */
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+    color: #888;
+    background-color: #f4f6f9;
+}
+
+.input-group input:focus {
+    border-bottom: 1px solid #2a64f5;
+}
+
+/* 도메인 스타일 */
+.input-group .domain {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* 체크박스 그룹 스타일 */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #555;
+}
+
+.checkbox-group input {
+    margin-right: 8px;
+}
+
+/* 로그인 버튼 스타일 */
+.login-button {
+    width: 100%;
+    padding: 14px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #444;
+}
+
+/* 플레이스홀더 스타일 */
+::placeholder {
+    color: #ccc;
+    font-size: 14px;
+}

@@ -1,0 +1,87 @@
+/* .p-organizationchart-nodes{
+    background-color: aqua !important;
+    width: 100px !important;
+
+
+}
+.imgCon{
+background-color: blueviolet !important;
+display: flex !important;
+
+
+} */
+
+.employee-list {
+    display: flex;
+    flex-direction: column; /* ✅ 세로 정렬 */
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+}
+
+.employee-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 10px;
+    background: #f8f9fa;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.employee-card:hover {
+    transform: scale(1.05);
+}
+
+.employee-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.employee-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.employee-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.employee-title {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.no-employees {
+    text-align: center;
+    font-size: 1rem;
+    color: #999;
+    width: 100%;
+}
+/* Dialog 컴포넌트의 닫기 버튼 스타일 */
+.p-dialog .p-dialog-header-close {
+    font-size: 24px; /* 닫기 버튼 크기 */
+    width: 40px; /* 버튼의 너비 */
+    height: 40px; /* 버튼의 높이 */
+    padding: 0; /* 여백 제거 */
+}
+
+/* 버튼의 크기와 색상을 더 눈에 띄게 설정 */
+.p-dialog .p-dialog-header-close .p-button-icon {
+    font-size: 28px; /* 아이콘의 크기 */
+    color: #FF6347; /* 아이콘 색상 (예: 토마토 색상) */
+}
+
+/* 마우스 hover시 색상 변화 */
+.p-dialog .p-dialog-header-close:hover .p-button-icon {
+    color: #FF4500; /* hover시 색상 */
+}
